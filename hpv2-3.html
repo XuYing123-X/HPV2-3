@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5; maximum-scale=0.0, user-scalable=no"/>
+	    <style type="text/css">
+	    	*{
+				margin: 0;
+				padding: 0;
+			}
+			html{
+				width: 100%;
+				height: 100vh;
+			}
+			body{
+				width: 100%;
+				height: 100%;
+			}
+			.box{
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			.box1{
+				width:100vw ;
+				height: 28%;
+				background: url(../img/p1.png) no-repeat;
+				background-size: 100% 100%;
+				
+			}
+			.box2{
+				background-color: #EFECF0;
+				width:100vw ;
+				height: 72%;
+				display: table;
+				position: relative;
+				
+			}
+			.box2-1{
+				margin-left: 4.6875rem;
+				margin-right: 4.1875rem;
+				margin-bottom: 2.75rem;
+			}
+			#gong{
+				font: bold 40px  SourceHanSansCN-Bold;
+               	color: #141414;
+				text-align: center;
+				margin-bottom: 1.0rem;
+		   
+			}
+			#jie{
+				font: bold 40px SourceHanSansCN-Bold;
+				color: #E32F37;
+				text-align: center;             
+			}
+			li{
+				font: 28px SourceHanSansCN-Regular;
+				/* margin-left: 2.5rem;
+				margin-right: 5.5625rem; */
+			}
+			ul{
+				height: 44%;
+				border: 0.1875rem solid #AFCE11;
+				border-radius: 10px;
+				margin-left: 2.25rem;
+				margin-right: 2.25rem;
+				list-style:none;
+			}
+			#zhong{
+				margin-left: 2.5rem;
+				margin-right: 3.3125rem;
+				margin-top: 3.5rem;
+				margin-bottom: 1.2rem;
+			}
+			#san{
+				margin-left: 12.1875rem;
+				margin-bottom: 2rem;
+			}
+			#yi{
+				margin-left: 2.5rem;
+				margin-right: 3.3125rem;
+				margin-bottom: 2.8125rem;
+			}
+			#xie{
+				margin-left: 2.5rem;
+				margin-right: 10.3125rem;
+				margin-bottom: 1.2rem;
+				/* margin-bottom: 2.5625rem; */
+			}
+			#zhu{
+				margin-left: 2.5rem;
+				margin-right: 4.25rem;
+				margin-bottom: 1.2rem;
+			/* 	margin-bottom: 3.3125rem; */
+			}
+			#ruo4{
+				font: 28px  SourceHanSansCN-Regular;
+				color: #E32F37;
+				margin-bottom: 3.3125rem;
+				margin-left: 12.25rem;
+			}
+			.btn_div{
+				position: fixed;
+				left: 32.75rem;
+				bottom: 4.375rem;
+				width: 11.9375rem;
+				height: 3.75rem;
+				padding: 12px 0 12px 0;
+				/* 966 524 */
+			/* 	position: absolute;
+				top: 76rem;
+				left: 32.75rem; */
+			}
+			.btn{
+				border: 0.1875rem solid #AFCE11;
+				border-radius: 0.625rem;
+				/* width: 11.1875rem;
+				height: 3rem; */
+				width: 100%;
+				height: 100%;
+				font: bold 24px SourceHanSansCN-Bold;
+				color: #AFCE11;
+				background-color: #EFECF0;
+				text-align: center;
+				/* padding: 12px 0 12px 0; */
+			}
+			#zhang{
+				margin-left: 1.875rem;
+			}
+			#si{
+				margin-left: 1.875rem;
+			}
+			#ben1{
+				margin-left: 1.875rem;
+			}
+			#ben2{
+				margin-left: 12.25rem;
+				margin-bottom: 2.5625rem;
+			}
+			#jie2{
+				margin-left: 1.875rem;
+			}
+			#ruo2 ,#ti ,#ruo{
+				margin-left: 12.25rem;
+			}
+			
+			#ruo2{
+				margin-bottom: 1.2rem;
+			}
+			#ti{
+				margin-bottom: 1.2rem;
+			}
+	    </style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box1"></div>
+			<div class="box2">
+				<div class="box2-1">
+					 <p id="gong">恭喜你成功预约HPV疫苗接种资格 </p>
+			         <p id="jie">接种日期2019-7-28</p>
+				</div>
+				<div class="box2-2">
+					<ul>
+						<li id="zhong">接种地点: <span id="zhang">
+							张家港澳洋健康管理中心7号楼</span></li><li id="san">3楼</li>
+						<li id="yi">疫苗接种: <span id="si">
+							四价,每人仅限一份疫苗,每份3针</span></li>
+						<li id="xie">携带证件: <span id="ben1">
+							本人身份证+户籍证明,或</span><li id="ben2">
+							本人身份证+暂住证	
+							</li></li>
+						<li id="zhu">注意事项: <span id="jie2">
+							接种名额仅限本人,不接受转让</span><li id="ruo2">若有特殊情况可更改接种日期,仅</li><li id="ti">提供一次更改机会</li><li id="ruo4">
+					      若未按时前往接种将视为自愿放弃</li></li>
+					</ul>
+				</div>
+				<div class="btn_div">
+					<button class="btn" onclick="location='hpv2-4.html'">更改日期</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
